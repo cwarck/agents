@@ -1,6 +1,12 @@
 ---
 name: dialectic
-description: Analyze a position, idea, or decision using dialectical reasoning: thesis, antithesis, synthesis. Use when the user asks to "dialectic", "steel man and steel man against", "argue both sides", "pros and cons", "should I X or Y", "what are the tradeoffs", "devil's advocate", "challenge this idea", "poke holes in this", "convince me not to do X", or generally wants to stress-test a position before committing. Also use when comparing two approaches or technologies and the user wants a rigorous evaluation rather than a surface-level list.
+description: >
+  Analyze a position, idea, or decision using dialectical reasoning: thesis, antithesis, synthesis.
+  Use when the user asks to "dialectic", "steel man and steel man against", "argue both sides",
+  "pros and cons", "should I X or Y", "what are the tradeoffs", "devil's advocate",
+  "challenge this idea", "poke holes in this", "convince me not to do X", or generally wants to
+  stress-test a position before committing. Also use when comparing two approaches or technologies
+  and the user wants a rigorous evaluation rather than a surface-level list.
 ---
 
 Apply dialectical analysis to $ARGUMENTS using parallel subagents.
