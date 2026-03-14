@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "Cwarck Claude Code skills.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -15,6 +15,14 @@
       "skills": [
         "./skills/dialectic",
         "./skills/roast"
+      ]
+    },
+    {
+      "name": "commit",
+      "description": "Git commit skill using Conventional Commits spec.",
+      "source": "./",
+      "skills": [
+        "./skills/commit"
       ]
     }
   ]
