@@ -6,6 +6,7 @@ My daily-driver collection of Claude Code skills.
 
 | Skill | What it does |
 |-------|-------------|
+| `commit` | Create a git commit following the Conventional Commits spec. |
 | `dialectic` | Dialectical reasoning — thesis, antithesis, synthesis. Stress-test positions, compare approaches, and argue both sides before committing. |
 | `roast` | Brutally honest, no-nonsense feedback on anything — code, ideas, designs, architecture, writing, plans. |
 
@@ -14,12 +15,13 @@ My daily-driver collection of Claude Code skills.
 **Claude Code (marketplace):**
 ```shell
 /plugin marketplace add cwarck/claude-skills
-/plugin install thinking@cwarck-claude-skills
+/plugin install skills@cwarck-claude-skills
 ```
 
 **Manual:**
 ```bash
 git clone --depth 1 https://github.com/cwarck/claude-skills.git /tmp/cwarck-claude-skills
+cp -r /tmp/cwarck-claude-skills/skills/commit ~/.claude/skills/commit
 cp -r /tmp/cwarck-claude-skills/skills/dialectic ~/.claude/skills/dialectic
 cp -r /tmp/cwarck-claude-skills/skills/roast ~/.claude/skills/roast
 rm -rf /tmp/cwarck-claude-skills
