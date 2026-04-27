@@ -35,15 +35,3 @@ cp -r /tmp/cwarck-agents/skills/dialectic ~/.claude/skills/dialectic
 cp -r /tmp/cwarck-agents/skills/roast ~/.claude/skills/roast
 rm -rf /tmp/cwarck-agents
 ```
-
-## Usage
-
-Skills activate automatically based on your prompt. Examples:
-
-```
-> dialectic: we should adopt a monorepo for all our microservices
-> pros and cons of PostgreSQL vs MongoDB for user-generated content
-> poke holes in this design
-> roast: this PR diff
-> don't hold back on my architecture doc
-```
