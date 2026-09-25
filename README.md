@@ -29,8 +29,8 @@ More categories (agents, prompts, MCP configs, etc.) get their own top-level dir
 **Manual:**
 ```bash
 git clone --depth 1 https://github.com/cwarck/agents.git /tmp/cwarck-agents
-cp -r /tmp/cwarck-agents/skills/commit ~/.claude/skills/commit
+mkdir -p ~/.claude/skills
 cp -r /tmp/cwarck-agents/skills/dialectic ~/.claude/skills/dialectic
-cp -r /tmp/cwarck-agents/skills/roast ~/.claude/skills/roast
+cp -r /tmp/cwarck-agents/skills/grug ~/.claude/skills/grug
 rm -rf /tmp/cwarck-agents
 ```
